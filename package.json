@@ -1,0 +1,21 @@
+{
+  "name": "githook",
+  "version": "1.0.0",
+  "description": "A deamon to listen for webhooks from github to update aquamobile on git push.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "Github",
+    "Git",
+    "Webhooks"
+  ],
+  "author": "ankitg",
+  "license": "CC BY-SA",
+  "dependencies": {
+    "body-parser": "^1.11.0",
+    "express": "^4.11.2"
+  }
+}
